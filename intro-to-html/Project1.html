@@ -1,0 +1,62 @@
+<!-- <button>Hello</button>
+<p>paragraph of text</p>
+<a href="https://www.youtube.com/" target="_blank">link to youtube</a> -->
+<!-- VOID ELEMENT = NO NEED CLOSING TAG .........................................EXEMPLE-LINK -->
+<!-- BUTTONS -->
+
+<style>
+    .SUBSCRIBE_button{
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        height: 36px; /*PADDING  IS BETTER ALTERNATIVE  THEN HEIGHT AND WIDTH*/
+        width: 100px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.15s;
+    }
+    .SUBSCRIBE_button:hover{
+        opacity: 0.8;
+    }
+    .SUBSCRIBE_button:active{
+        opacity: 0.5;
+    }
+    .JOIN_button{
+        background-color: white;
+        color: rgb(41, 118, 211);
+        border-color: rgb(41, 118, 211);
+        border-style: solid;
+        border-width: 1px;
+        height: 36px;
+        width: 62px;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: background-colour 1s;
+    }
+    .JOIN_button:hover{
+        background-color: rgb(41, 118, 211);
+        color: white;
+    }
+    .JOIN_button:active{
+        opacity: 0.7;
+    }
+    .tweet_button{
+        background-color: rgb(2, 158, 255);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 70px;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 8px;
+    }
+    .tweet_button:hover{
+        box-shadow: 5px , 5px , 10px , rgba(0, 0, 0 ,0.15);
+    }
+</style>
+<button class="SUBSCRIBE_button">SUBSCRIBE</button>
+<button class="JOIN_button">JOIN</button>
+<button class="tweet_button">Tweet</button>
